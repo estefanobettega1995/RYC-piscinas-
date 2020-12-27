@@ -1,0 +1,158 @@
+.featurette-heading {
+  color: blue; }
+
+.barrefondo1, .sacahojas1, .manguera1, .boyas1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo1 > a > img, .sacahojas1 > a > img, .manguera1 > a > img, .boyas1 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo1 > a > img:hover, .sacahojas1 > a > img:hover, .manguera1 > a > img:hover, .boyas1 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo2, .sacahojas2, .manguera2, .boyas2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo2 > a > img, .sacahojas2 > a > img, .manguera2 > a > img, .boyas2 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo2 > a > img:hover, .sacahojas2 > a > img:hover, .manguera2 > a > img:hover, .boyas2 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo3, .sacahojas3, .manguera3, .boyas3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo3 > a > img, .sacahojas3 > a > img, .manguera3 > a > img, .boyas3 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo3 > a > img:hover, .sacahojas3 > a > img:hover, .manguera3 > a > img:hover, .boyas3 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo4, .sacahojas4, .manguera4, .boyas4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo4 > a > img, .sacahojas4 > a > img, .manguera4 > a > img, .boyas4 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo4 > a > img:hover, .sacahojas4 > a > img:hover, .manguera4 > a > img:hover, .boyas4 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo5, .sacahojas5, .manguera5, .boyas5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo5 > a > img, .sacahojas5 > a > img, .manguera5 > a > img, .boyas5 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo5 > a > img:hover, .sacahojas5 > a > img:hover, .manguera5 > a > img:hover, .boyas5 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo6, .sacahojas6, .manguera6, .boyas6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo6 > a > img, .sacahojas6 > a > img, .manguera6 > a > img, .boyas6 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo6 > a > img:hover, .sacahojas6 > a > img:hover, .manguera6 > a > img:hover, .boyas6 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo7, .sacahojas7, .boyas7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo7 > a > img, .sacahojas7 > a > img, .boyas7 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo7 > a > img:hover, .sacahojas7 > a > img:hover, .boyas7 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo8, .boyas8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo8 > a > img, .boyas8 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo8 > a > img:hover, .boyas8 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondo9, .boyas9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -3%;
+  padding: 23px;
+  align-items: center; }
+  .barrefondo9 > a > img, .boyas9 > a > img {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    transition: transform .2s; }
+  .barrefondo9 > a > img:hover, .boyas9 > a > img:hover {
+    transform: scale(1.1); }
+
+.barrefondosTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .barrefondosTexto > h1 {
+    color: #3679c9; }
+
+.sacahojasTexto, .boyasTexto, .manguerasTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .sacahojasTexto > h1, .boyasTexto > h1, .manguerasTexto > h1 {
+    color: #3679c9; }

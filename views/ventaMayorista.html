@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Venta mayorista</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../imagenes/ryc.png" />
+    <meta name="description" content="Contacto de venta mayorista" />
+    <meta name="keywords" content="mayorista, proveedor, venta de productos al mayor">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles3.css">
+    <link rel="stylesheet" href="../css/whatssap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+</head>
+
+<body class="fondoPrincipal">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+543412680942&text=Bienvenido%20a%20RYC%20piscinas" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <nav class="navbar navbar-light bg-azul navbar-expand-xl">
+        <a class="navbar-brand" href="#">
+            <img src="../imagenes/ryc.png" width="30" height="30" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index2.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../views/equipamientos.html">EQUIPAMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../views/productosQuimicos.html">PRODUCTOS QUIMICOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../views/accesorios.html">ACCESORIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../views/instalaciones.html">INSTALACIONES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../views/iluminacion.html">ILUMINACIÓN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../views/revestimientos.html">REVESTIMIENTOS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="tituloVentaMayorista">Venta mayorista</h1>
+    <form class="formulario">
+        <fieldset>
+            <legend>Formulario para venta mayorista:</legend>
+            <br>
+            <label>Nombre completo:</label>
+            <input type="text" name="NombreCompleto" value="" placeholder="Ingrese su nombre y apellido" />
+            <br><br>
+            <label>Email:</label>
+            <input type="text" name="Email" value="" placeholder="Ingrese su email" />
+            <br><br>
+            <label>Requerimiento:</label>
+            <form>
+                <select name="Tipo">
+                    <option value="Compra">Compra</option>
+                    <option value="Consulta">Consulta</option>
+                </select>
+            </form>
+            <br><br>
+            <label>Cliente nuevo:</label>
+            <input type="radio" name="ClienteNuevo" value="" />
+            <label>Cliente ya ingresado:</label>
+            <input type="radio" name="ClienteYaIngresado" value="" />
+            <br><br>
+            <p>He leído y acepto la politica-privacidad</p>
+            <input type="checkbox" name="He leído y acepto la politica-privacidad" value="false">
+            <br><br>
+            <input type="submit" value="Enviar formulario" />
+            <br><br>
+            <input type="reset" value="Borrar" />
+        </fieldset>
+    </form>
+    <footer class="container-fluid" style="margin-top: 10%;">
+        <div class="padre1">
+            <div class="row">
+                <img class="imgPiePagina" src="../imagenes/ryc.png" height="130" alt="logotipo">
+                <p>
+                    <br> Av. Pellegrini 3548 / Rosario.
+                    <br> Lunes a Viernes: 10 a 17hs
+                    <br> Sabados: 9 a 13hs - RYC piscinas 2020
+                    <br> Copyright RYCPISCINAS © 2020
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+
+</html>

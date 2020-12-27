@@ -1,0 +1,75 @@
+$bordes:1px solid black;
+$margenes: 10px;
+$tamanio: 100%;
+$padding: 23px;
+$justificado: center;
+$margenSuperior: -3%;
+@import "_estructura";
+@import "_tipografia";
+@import "_variables";
+.featurette-heading {
+    color: $colorletras;
+}
+
+@for $i from 1 through 9 {
+    .barrefondo#{$i} {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: $justificado;
+        margin-top: $margenSuperior;
+        padding: $padding;
+        align-items: center;
+        >a>img {
+            border: $bordes;
+            border-radius: 10px;
+            width: $tamanio;
+            margin: $margenes;
+            transition: transform .2s;
+        }
+        >a>img:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.barrefondosTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 7 {
+    .sacahojas#{$i} {
+        @extend .barrefondo#{$i}
+    }
+}
+
+.sacahojasTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 6 {
+    .manguera#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+@for $i from 1 through 9 {
+    .boyas#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.boyasTexto {
+    @extend .sacahojasTexto
+}
+
+.manguerasTexto {
+    @extend.sacahojasTexto
+}

@@ -66,10 +66,104 @@ $margenSuperior: -3%;
     }
 }
 
+@for $i from 1 through 6 {
+    .bomba#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.bombasTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 7 {
+    .filtro#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.filtrosTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 2 {
+    .casilla#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.casillasTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 7 {
+    .luz#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.iluminacionTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 7 {
+    .controlador#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.controladorTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
 .boyasTexto {
     @extend .sacahojasTexto
 }
 
 .manguerasTexto {
     @extend.sacahojasTexto
+}
+
+.alguicidaTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+.instalacionesTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+.revestimientoTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
 }

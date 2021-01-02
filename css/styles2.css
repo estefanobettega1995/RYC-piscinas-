@@ -1,116 +1,116 @@
 .featurette-heading {
   color: blue; }
 
-.barrefondo1, .sacahojas1, .manguera1, .boyas1 {
+.barrefondo1, .sacahojas1, .manguera1, .boyas1, .bomba1, .filtro1, .casilla1, .luz1, .controlador1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo1 > a > img, .sacahojas1 > a > img, .manguera1 > a > img, .boyas1 > a > img {
+  .barrefondo1 > a > img, .sacahojas1 > a > img, .manguera1 > a > img, .boyas1 > a > img, .bomba1 > a > img, .filtro1 > a > img, .casilla1 > a > img, .luz1 > a > img, .controlador1 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo1 > a > img:hover, .sacahojas1 > a > img:hover, .manguera1 > a > img:hover, .boyas1 > a > img:hover {
+  .barrefondo1 > a > img:hover, .sacahojas1 > a > img:hover, .manguera1 > a > img:hover, .boyas1 > a > img:hover, .bomba1 > a > img:hover, .filtro1 > a > img:hover, .casilla1 > a > img:hover, .luz1 > a > img:hover, .controlador1 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo2, .sacahojas2, .manguera2, .boyas2 {
+.barrefondo2, .sacahojas2, .manguera2, .boyas2, .bomba2, .filtro2, .casilla2, .luz2, .controlador2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo2 > a > img, .sacahojas2 > a > img, .manguera2 > a > img, .boyas2 > a > img {
+  .barrefondo2 > a > img, .sacahojas2 > a > img, .manguera2 > a > img, .boyas2 > a > img, .bomba2 > a > img, .filtro2 > a > img, .casilla2 > a > img, .luz2 > a > img, .controlador2 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo2 > a > img:hover, .sacahojas2 > a > img:hover, .manguera2 > a > img:hover, .boyas2 > a > img:hover {
+  .barrefondo2 > a > img:hover, .sacahojas2 > a > img:hover, .manguera2 > a > img:hover, .boyas2 > a > img:hover, .bomba2 > a > img:hover, .filtro2 > a > img:hover, .casilla2 > a > img:hover, .luz2 > a > img:hover, .controlador2 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo3, .sacahojas3, .manguera3, .boyas3 {
+.barrefondo3, .sacahojas3, .manguera3, .boyas3, .bomba3, .filtro3, .luz3, .controlador3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo3 > a > img, .sacahojas3 > a > img, .manguera3 > a > img, .boyas3 > a > img {
+  .barrefondo3 > a > img, .sacahojas3 > a > img, .manguera3 > a > img, .boyas3 > a > img, .bomba3 > a > img, .filtro3 > a > img, .luz3 > a > img, .controlador3 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo3 > a > img:hover, .sacahojas3 > a > img:hover, .manguera3 > a > img:hover, .boyas3 > a > img:hover {
+  .barrefondo3 > a > img:hover, .sacahojas3 > a > img:hover, .manguera3 > a > img:hover, .boyas3 > a > img:hover, .bomba3 > a > img:hover, .filtro3 > a > img:hover, .luz3 > a > img:hover, .controlador3 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo4, .sacahojas4, .manguera4, .boyas4 {
+.barrefondo4, .sacahojas4, .manguera4, .boyas4, .bomba4, .filtro4, .luz4, .controlador4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo4 > a > img, .sacahojas4 > a > img, .manguera4 > a > img, .boyas4 > a > img {
+  .barrefondo4 > a > img, .sacahojas4 > a > img, .manguera4 > a > img, .boyas4 > a > img, .bomba4 > a > img, .filtro4 > a > img, .luz4 > a > img, .controlador4 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo4 > a > img:hover, .sacahojas4 > a > img:hover, .manguera4 > a > img:hover, .boyas4 > a > img:hover {
+  .barrefondo4 > a > img:hover, .sacahojas4 > a > img:hover, .manguera4 > a > img:hover, .boyas4 > a > img:hover, .bomba4 > a > img:hover, .filtro4 > a > img:hover, .luz4 > a > img:hover, .controlador4 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo5, .sacahojas5, .manguera5, .boyas5 {
+.barrefondo5, .sacahojas5, .manguera5, .boyas5, .bomba5, .filtro5, .luz5, .controlador5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo5 > a > img, .sacahojas5 > a > img, .manguera5 > a > img, .boyas5 > a > img {
+  .barrefondo5 > a > img, .sacahojas5 > a > img, .manguera5 > a > img, .boyas5 > a > img, .bomba5 > a > img, .filtro5 > a > img, .luz5 > a > img, .controlador5 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo5 > a > img:hover, .sacahojas5 > a > img:hover, .manguera5 > a > img:hover, .boyas5 > a > img:hover {
+  .barrefondo5 > a > img:hover, .sacahojas5 > a > img:hover, .manguera5 > a > img:hover, .boyas5 > a > img:hover, .bomba5 > a > img:hover, .filtro5 > a > img:hover, .luz5 > a > img:hover, .controlador5 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo6, .sacahojas6, .manguera6, .boyas6 {
+.barrefondo6, .sacahojas6, .manguera6, .boyas6, .bomba6, .filtro6, .luz6, .controlador6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo6 > a > img, .sacahojas6 > a > img, .manguera6 > a > img, .boyas6 > a > img {
+  .barrefondo6 > a > img, .sacahojas6 > a > img, .manguera6 > a > img, .boyas6 > a > img, .bomba6 > a > img, .filtro6 > a > img, .luz6 > a > img, .controlador6 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo6 > a > img:hover, .sacahojas6 > a > img:hover, .manguera6 > a > img:hover, .boyas6 > a > img:hover {
+  .barrefondo6 > a > img:hover, .sacahojas6 > a > img:hover, .manguera6 > a > img:hover, .boyas6 > a > img:hover, .bomba6 > a > img:hover, .filtro6 > a > img:hover, .luz6 > a > img:hover, .controlador6 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo7, .sacahojas7, .boyas7 {
+.barrefondo7, .sacahojas7, .boyas7, .filtro7, .luz7, .controlador7 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo7 > a > img, .sacahojas7 > a > img, .boyas7 > a > img {
+  .barrefondo7 > a > img, .sacahojas7 > a > img, .boyas7 > a > img, .filtro7 > a > img, .luz7 > a > img, .controlador7 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo7 > a > img:hover, .sacahojas7 > a > img:hover, .boyas7 > a > img:hover {
+  .barrefondo7 > a > img:hover, .sacahojas7 > a > img:hover, .boyas7 > a > img:hover, .filtro7 > a > img:hover, .luz7 > a > img:hover, .controlador7 > a > img:hover {
     transform: scale(1.1); }
 
 .barrefondo8, .boyas8 {
@@ -155,4 +155,52 @@
   text-align: center;
   margin-top: 3%; }
   .sacahojasTexto > h1, .boyasTexto > h1, .manguerasTexto > h1 {
+    color: #3679c9; }
+
+.bombasTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .bombasTexto > h1 {
+    color: #3679c9; }
+
+.filtrosTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .filtrosTexto > h1 {
+    color: #3679c9; }
+
+.casillasTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .casillasTexto > h1 {
+    color: #3679c9; }
+
+.iluminacionTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .iluminacionTexto > h1 {
+    color: #3679c9; }
+
+.controladorTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .controladorTexto > h1 {
+    color: #3679c9; }
+
+.alguicidaTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .alguicidaTexto > h1 {
+    color: #3679c9; }
+
+.instalacionesTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .instalacionesTexto > h1 {
+    color: #3679c9; }
+
+.revestimientoTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .revestimientoTexto > h1 {
     color: #3679c9; }

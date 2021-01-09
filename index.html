@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/styles3.css">
     <link rel="stylesheet" href="css/whatssap.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-lastet.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body class="fondoPrincipal">
@@ -21,40 +23,44 @@
     <a href="https://api.whatsapp.com/send?phone=+543412680942&text=Bienvenido%20a%20RYC%20piscinas" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
-    <nav class="navbar navbar-light bg-azul navbar-expand-xl">
-        <a class="navbar-brand" href="#">
-            <img src="imagenes/ryc.png" width="30" height="30" alt="" loading="lazy">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">INICIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/equipamientos.html">EQUIPAMIENTOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/productosQuimicos.html">PRODUCTOS QUIMICOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/accesorios.html">ACCESORIOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/instalaciones.html">INSTALACIONES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/iluminacion.html">ILUMINACIÓN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/revestimientos.html">REVESTIMIENTOS</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div class="container marketing">
+        <div class="contenedorNav">
+            <div class="menu-fixed">
+                <nav class="navbar navbar-light bg-azul navbar-expand-xl">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagenes/ryc.png" width="95" alt="" loading="lazy">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/equipamientos.html">EQUIPAMIENTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/productosQuimicos.html">PRODUCTOS QUIMICOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/accesorios.html">ACCESORIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/instalaciones.html">INSTALACIONES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/iluminacion.html">ILUMINACIÓN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="views/revestimientos.html">REVESTIMIENTOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
         <div class="container-fluid slider">
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6 offset-md-1">
@@ -222,12 +228,11 @@
                 </p>
                 <p><a class="btn btn-default" href="#" role="button">Más información »</a></p>
             </div>
-            <!-- FOOTER -->
-            <footer>
-                <p class="pull-right"><a href="#">Subir</a></p>
-                <p>© 2020 Company, Inc. ·</p>
-            </footer>
-
+        </div>
+        <div class="botonComprar">
+            <a href="index.html ">
+                <img src="imagenes/pulsaInicio.png" width="25%">
+            </a>
         </div>
     </div>
     <footer class="container-fluid">

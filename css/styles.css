@@ -453,72 +453,6 @@ td {
 }
 
 
-/* ProductosQuimicos */
-
-.tituloQuimicos {
-    text-align: center;
-    margin: 25px 0px 0px;
-}
-
-.quimicos {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1rem;
-    justify-content: center;
-    padding: 50px 25px;
-}
-
-.quimicos2 {
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    padding: 50px 25px;
-}
-
-.quimicos__alguicidas {
-    display: flex;
-    flex-direction: column;
-    background: rgb(14, 221, 76);
-    padding: 1rem;
-    text-align: center;
-    justify-content: space-between;
-}
-
-.quimicos__alguicidas img {
-    margin-top: 15px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10%;
-}
-
-.quimicos2__clarificadores {
-    display: flex;
-    flex-direction: column;
-    background: rgb(14, 128, 221);
-    padding: 1rem;
-    text-align: center;
-    justify-content: space-between;
-}
-
-.quimicos2__clarificadores img {
-    margin-top: 15px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10%;
-}
-
-@media (max-width: 600px) {
-    .quimicos2 {
-        grid-template-columns: 1fr;
-    }
-    .quimicos {
-        grid-template-columns: 1fr;
-    }
-}
-
-
 /* Equipamientos */
 
 .equipamientosTitulo {
@@ -651,11 +585,6 @@ html {
     }
 }
 
-
-/*   .menuFotos>a>img:hover {
-            transform: scale(2, 1);
-        }*/
-
 .menuFotos>a>img {
     transition: width 2s, height 2s, transform 2s;
     -moz-transition: width 2s, height 2s, transform 2s;
@@ -672,4 +601,23 @@ html {
 
 .bg-blue {
     background-color: black
+}
+
+.logotipo>img {
+    width: 100%;
+}
+
+
+/* nav bar */
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.contenedorNav {
+    margin-top: 7%;
 }

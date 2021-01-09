@@ -167,3 +167,59 @@ $margenSuperior: -3%;
         color: #3679c9;
     }
 }
+
+@for $i from 1 through 4 {
+    .quimicos#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.quimicosTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 8 {
+    .alguicida#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.alguicidasTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 8 {
+    .clarificador#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.clarificadoresTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 8 {
+    .cloro#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+.clarificadoresTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}

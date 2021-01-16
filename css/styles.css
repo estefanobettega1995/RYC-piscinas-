@@ -816,6 +816,16 @@ html {
     z-index: 4;
 }
 
+.caption-style-1 p {
+    padding: 10px 10px;
+}
+
+.caption-style-1 h1 {
+    padding: 10px 10px;
+    margin-top: -50px;
+    font-weight: bold;
+}
+
 .caption-style-1 .caption {
     cursor: pointer;
     position: absolute;

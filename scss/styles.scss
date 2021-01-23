@@ -40,12 +40,6 @@ $margenSuperior: -3%;
     }
 }
 
-@for $i from 1 through 7 {
-    .sacahojas#{$i} {
-        @extend .barrefondo#{$i}
-    }
-}
-
 .sacahojasTexto {
     text-align: center;
     margin-top: 3%;
@@ -54,35 +48,11 @@ $margenSuperior: -3%;
     }
 }
 
-@for $i from 1 through 6 {
-    .manguera#{$i} {
-        @extend .barrefondo#{$i};
-    }
-}
-
-@for $i from 1 through 9 {
-    .boyas#{$i} {
-        @extend .barrefondo#{$i};
-    }
-}
-
-@for $i from 1 through 6 {
-    .bomba#{$i} {
-        @extend .barrefondo#{$i};
-    }
-}
-
 .bombasTexto {
     text-align: center;
     margin-top: 3%;
     >h1 {
         color: #3679c9;
-    }
-}
-
-@for $i from 1 through 7 {
-    .filtro#{$i} {
-        @extend .barrefondo#{$i};
     }
 }
 
@@ -96,6 +66,12 @@ $margenSuperior: -3%;
 
 @for $i from 1 through 2 {
     .casilla#{$i} {
+        @extend .barrefondo#{$i};
+    }
+}
+
+@for $i from 1 through 2 {
+    .horario#{$i} {
         @extend .barrefondo#{$i};
     }
 }
@@ -182,12 +158,6 @@ $margenSuperior: -3%;
     }
 }
 
-@for $i from 1 through 8 {
-    .alguicida#{$i} {
-        @extend .barrefondo#{$i};
-    }
-}
-
 .alguicidasTexto {
     text-align: center;
     margin-top: 3%;
@@ -196,9 +166,11 @@ $margenSuperior: -3%;
     }
 }
 
-@for $i from 1 through 8 {
-    .clarificador#{$i} {
-        @extend .barrefondo#{$i};
+.clarificadoresTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
     }
 }
 
@@ -210,13 +182,21 @@ $margenSuperior: -3%;
     }
 }
 
-@for $i from 1 through 8 {
-    .cloro#{$i} {
+.cloroTexto {
+    text-align: center;
+    margin-top: 3%;
+    >h1 {
+        color: #3679c9;
+    }
+}
+
+@for $i from 1 through 4 {
+    .accesorios#{$i} {
         @extend .barrefondo#{$i};
     }
 }
 
-.clarificadoresTexto {
+.accesoriosTexto {
     text-align: center;
     margin-top: 3%;
     >h1 {

@@ -1,132 +1,132 @@
 .featurette-heading {
   color: blue; }
 
-.barrefondo1, .sacahojas1, .manguera1, .boyas1, .bomba1, .filtro1, .casilla1, .luz1, .controlador1, .quimicos1, .alguicida1, .clarificador1, .cloro1 {
+.barrefondo1, .sacahojas1, .manguera1, .boyas1, .bomba1, .filtro1, .casilla1, .luz1, .controlador1, .quimicos1, .accesorios1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo1 > a > img, .sacahojas1 > a > img, .manguera1 > a > img, .boyas1 > a > img, .bomba1 > a > img, .filtro1 > a > img, .casilla1 > a > img, .luz1 > a > img, .controlador1 > a > img, .quimicos1 > a > img, .alguicida1 > a > img, .clarificador1 > a > img, .cloro1 > a > img {
+  .barrefondo1 > a > img, .sacahojas1 > a > img, .manguera1 > a > img, .boyas1 > a > img, .bomba1 > a > img, .filtro1 > a > img, .casilla1 > a > img, .luz1 > a > img, .controlador1 > a > img, .quimicos1 > a > img, .accesorios1 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo1 > a > img:hover, .sacahojas1 > a > img:hover, .manguera1 > a > img:hover, .boyas1 > a > img:hover, .bomba1 > a > img:hover, .filtro1 > a > img:hover, .casilla1 > a > img:hover, .luz1 > a > img:hover, .controlador1 > a > img:hover, .quimicos1 > a > img:hover, .alguicida1 > a > img:hover, .clarificador1 > a > img:hover, .cloro1 > a > img:hover {
+  .barrefondo1 > a > img:hover, .sacahojas1 > a > img:hover, .manguera1 > a > img:hover, .boyas1 > a > img:hover, .bomba1 > a > img:hover, .filtro1 > a > img:hover, .casilla1 > a > img:hover, .luz1 > a > img:hover, .controlador1 > a > img:hover, .quimicos1 > a > img:hover, .accesorios1 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo2, .sacahojas2, .manguera2, .boyas2, .bomba2, .filtro2, .casilla2, .luz2, .controlador2, .quimicos2, .alguicida2, .clarificador2, .cloro2 {
+.barrefondo2, .sacahojas2, .manguera2, .boyas2, .bomba2, .filtro2, .casilla2, .luz2, .controlador2, .quimicos2, .accesorios2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo2 > a > img, .sacahojas2 > a > img, .manguera2 > a > img, .boyas2 > a > img, .bomba2 > a > img, .filtro2 > a > img, .casilla2 > a > img, .luz2 > a > img, .controlador2 > a > img, .quimicos2 > a > img, .alguicida2 > a > img, .clarificador2 > a > img, .cloro2 > a > img {
+  .barrefondo2 > a > img, .sacahojas2 > a > img, .manguera2 > a > img, .boyas2 > a > img, .bomba2 > a > img, .filtro2 > a > img, .casilla2 > a > img, .luz2 > a > img, .controlador2 > a > img, .quimicos2 > a > img, .accesorios2 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo2 > a > img:hover, .sacahojas2 > a > img:hover, .manguera2 > a > img:hover, .boyas2 > a > img:hover, .bomba2 > a > img:hover, .filtro2 > a > img:hover, .casilla2 > a > img:hover, .luz2 > a > img:hover, .controlador2 > a > img:hover, .quimicos2 > a > img:hover, .alguicida2 > a > img:hover, .clarificador2 > a > img:hover, .cloro2 > a > img:hover {
+  .barrefondo2 > a > img:hover, .sacahojas2 > a > img:hover, .manguera2 > a > img:hover, .boyas2 > a > img:hover, .bomba2 > a > img:hover, .filtro2 > a > img:hover, .casilla2 > a > img:hover, .luz2 > a > img:hover, .controlador2 > a > img:hover, .quimicos2 > a > img:hover, .accesorios2 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo3, .sacahojas3, .manguera3, .boyas3, .bomba3, .filtro3, .luz3, .controlador3, .quimicos3, .alguicida3, .clarificador3, .cloro3 {
+.barrefondo3, .sacahojas3, .manguera3, .boyas3, .bomba3, .filtro3, .luz3, .controlador3, .quimicos3, .accesorios3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo3 > a > img, .sacahojas3 > a > img, .manguera3 > a > img, .boyas3 > a > img, .bomba3 > a > img, .filtro3 > a > img, .luz3 > a > img, .controlador3 > a > img, .quimicos3 > a > img, .alguicida3 > a > img, .clarificador3 > a > img, .cloro3 > a > img {
+  .barrefondo3 > a > img, .sacahojas3 > a > img, .manguera3 > a > img, .boyas3 > a > img, .bomba3 > a > img, .filtro3 > a > img, .luz3 > a > img, .controlador3 > a > img, .quimicos3 > a > img, .accesorios3 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo3 > a > img:hover, .sacahojas3 > a > img:hover, .manguera3 > a > img:hover, .boyas3 > a > img:hover, .bomba3 > a > img:hover, .filtro3 > a > img:hover, .luz3 > a > img:hover, .controlador3 > a > img:hover, .quimicos3 > a > img:hover, .alguicida3 > a > img:hover, .clarificador3 > a > img:hover, .cloro3 > a > img:hover {
+  .barrefondo3 > a > img:hover, .sacahojas3 > a > img:hover, .manguera3 > a > img:hover, .boyas3 > a > img:hover, .bomba3 > a > img:hover, .filtro3 > a > img:hover, .luz3 > a > img:hover, .controlador3 > a > img:hover, .quimicos3 > a > img:hover, .accesorios3 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo4, .sacahojas4, .manguera4, .boyas4, .bomba4, .filtro4, .luz4, .controlador4, .quimicos4, .alguicida4, .clarificador4, .cloro4 {
+.barrefondo4, .sacahojas4, .manguera4, .boyas4, .bomba4, .filtro4, .luz4, .controlador4, .quimicos4, .accesorios4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo4 > a > img, .sacahojas4 > a > img, .manguera4 > a > img, .boyas4 > a > img, .bomba4 > a > img, .filtro4 > a > img, .luz4 > a > img, .controlador4 > a > img, .quimicos4 > a > img, .alguicida4 > a > img, .clarificador4 > a > img, .cloro4 > a > img {
+  .barrefondo4 > a > img, .sacahojas4 > a > img, .manguera4 > a > img, .boyas4 > a > img, .bomba4 > a > img, .filtro4 > a > img, .luz4 > a > img, .controlador4 > a > img, .quimicos4 > a > img, .accesorios4 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo4 > a > img:hover, .sacahojas4 > a > img:hover, .manguera4 > a > img:hover, .boyas4 > a > img:hover, .bomba4 > a > img:hover, .filtro4 > a > img:hover, .luz4 > a > img:hover, .controlador4 > a > img:hover, .quimicos4 > a > img:hover, .alguicida4 > a > img:hover, .clarificador4 > a > img:hover, .cloro4 > a > img:hover {
+  .barrefondo4 > a > img:hover, .sacahojas4 > a > img:hover, .manguera4 > a > img:hover, .boyas4 > a > img:hover, .bomba4 > a > img:hover, .filtro4 > a > img:hover, .luz4 > a > img:hover, .controlador4 > a > img:hover, .quimicos4 > a > img:hover, .accesorios4 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo5, .sacahojas5, .manguera5, .boyas5, .bomba5, .filtro5, .luz5, .controlador5, .alguicida5, .clarificador5, .cloro5 {
+.barrefondo5, .sacahojas5, .manguera5, .boyas5, .bomba5, .filtro5, .luz5, .controlador5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo5 > a > img, .sacahojas5 > a > img, .manguera5 > a > img, .boyas5 > a > img, .bomba5 > a > img, .filtro5 > a > img, .luz5 > a > img, .controlador5 > a > img, .alguicida5 > a > img, .clarificador5 > a > img, .cloro5 > a > img {
+  .barrefondo5 > a > img, .sacahojas5 > a > img, .manguera5 > a > img, .boyas5 > a > img, .bomba5 > a > img, .filtro5 > a > img, .luz5 > a > img, .controlador5 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo5 > a > img:hover, .sacahojas5 > a > img:hover, .manguera5 > a > img:hover, .boyas5 > a > img:hover, .bomba5 > a > img:hover, .filtro5 > a > img:hover, .luz5 > a > img:hover, .controlador5 > a > img:hover, .alguicida5 > a > img:hover, .clarificador5 > a > img:hover, .cloro5 > a > img:hover {
+  .barrefondo5 > a > img:hover, .sacahojas5 > a > img:hover, .manguera5 > a > img:hover, .boyas5 > a > img:hover, .bomba5 > a > img:hover, .filtro5 > a > img:hover, .luz5 > a > img:hover, .controlador5 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo6, .sacahojas6, .manguera6, .boyas6, .bomba6, .filtro6, .luz6, .controlador6, .alguicida6, .clarificador6, .cloro6 {
+.barrefondo6, .sacahojas6, .manguera6, .boyas6, .bomba6, .filtro6, .luz6, .controlador6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo6 > a > img, .sacahojas6 > a > img, .manguera6 > a > img, .boyas6 > a > img, .bomba6 > a > img, .filtro6 > a > img, .luz6 > a > img, .controlador6 > a > img, .alguicida6 > a > img, .clarificador6 > a > img, .cloro6 > a > img {
+  .barrefondo6 > a > img, .sacahojas6 > a > img, .manguera6 > a > img, .boyas6 > a > img, .bomba6 > a > img, .filtro6 > a > img, .luz6 > a > img, .controlador6 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo6 > a > img:hover, .sacahojas6 > a > img:hover, .manguera6 > a > img:hover, .boyas6 > a > img:hover, .bomba6 > a > img:hover, .filtro6 > a > img:hover, .luz6 > a > img:hover, .controlador6 > a > img:hover, .alguicida6 > a > img:hover, .clarificador6 > a > img:hover, .cloro6 > a > img:hover {
+  .barrefondo6 > a > img:hover, .sacahojas6 > a > img:hover, .manguera6 > a > img:hover, .boyas6 > a > img:hover, .bomba6 > a > img:hover, .filtro6 > a > img:hover, .luz6 > a > img:hover, .controlador6 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo7, .sacahojas7, .boyas7, .filtro7, .luz7, .controlador7, .alguicida7, .clarificador7, .cloro7 {
+.barrefondo7, .sacahojas7, .boyas7, .filtro7, .luz7, .controlador7 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo7 > a > img, .sacahojas7 > a > img, .boyas7 > a > img, .filtro7 > a > img, .luz7 > a > img, .controlador7 > a > img, .alguicida7 > a > img, .clarificador7 > a > img, .cloro7 > a > img {
+  .barrefondo7 > a > img, .sacahojas7 > a > img, .boyas7 > a > img, .filtro7 > a > img, .luz7 > a > img, .controlador7 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo7 > a > img:hover, .sacahojas7 > a > img:hover, .boyas7 > a > img:hover, .filtro7 > a > img:hover, .luz7 > a > img:hover, .controlador7 > a > img:hover, .alguicida7 > a > img:hover, .clarificador7 > a > img:hover, .cloro7 > a > img:hover {
+  .barrefondo7 > a > img:hover, .sacahojas7 > a > img:hover, .boyas7 > a > img:hover, .filtro7 > a > img:hover, .luz7 > a > img:hover, .controlador7 > a > img:hover {
     transform: scale(1.1); }
 
-.barrefondo8, .boyas8, .alguicida8, .clarificador8, .cloro8 {
+.barrefondo8, .boyas8 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -3%;
   padding: 23px;
   align-items: center; }
-  .barrefondo8 > a > img, .boyas8 > a > img, .alguicida8 > a > img, .clarificador8 > a > img, .cloro8 > a > img {
+  .barrefondo8 > a > img, .boyas8 > a > img {
     border: 1px solid black;
     border-radius: 10px;
     width: 100%;
     margin: 10px;
     transition: transform .2s; }
-  .barrefondo8 > a > img:hover, .boyas8 > a > img:hover, .alguicida8 > a > img:hover, .clarificador8 > a > img:hover, .cloro8 > a > img:hover {
+  .barrefondo8 > a > img:hover, .boyas8 > a > img:hover {
     transform: scale(1.1); }
 
 .barrefondo9, .boyas9 {
@@ -227,4 +227,16 @@
   text-align: center;
   margin-top: 3%; }
   .clarificadoresTexto > h1 {
+    color: #3679c9; }
+
+.cloroTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .cloroTexto > h1 {
+    color: #3679c9; }
+
+.accesoriosTexto {
+  text-align: center;
+  margin-top: 3%; }
+  .accesoriosTexto > h1 {
     color: #3679c9; }
